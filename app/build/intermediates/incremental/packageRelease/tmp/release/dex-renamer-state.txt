@@ -1,0 +1,4 @@
+#Tue Mar 31 18:13:26 PKT 2026
+base.0=D\:\\project\\CallRecorder\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

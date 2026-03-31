@@ -1,0 +1,228 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.callrecorder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:5:5-71
+11-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:6:5-75
+12-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:6:22-72
+13    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+13-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:7:5-77
+13-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+14-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:8:5-72
+14-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:8:22-69
+15    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+15-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+16-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:10:5-77
+16-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:11:5-80
+17-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission
+18-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:12:5-108
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:12:22-78
+20        android:maxSdkVersion="32" />
+20-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:12:79-105
+21    <uses-permission
+21-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:13:5-107
+22        android:name="android.permission.READ_EXTERNAL_STORAGE"
+22-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:13:22-77
+23        android:maxSdkVersion="32" />
+23-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:13:78-104
+24    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+24-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:14:5-75
+24-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:14:22-72
+25    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+25-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:15:5-111
+25-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:15:22-79
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:16:5-77
+26-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:16:22-74
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+27-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:17:5-88
+27-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:17:22-85
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:18:5-81
+28-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:18:22-78
+29    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+29-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:19:5-95
+29-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:19:22-92
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:20:5-77
+30-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:20:22-74
+31    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+31-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:21:5-85
+31-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:21:22-82
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:22:5-68
+32-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:22:22-65
+33    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+33-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:23:5-115
+33-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:23:22-76
+34
+35    <application
+35-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:25:5-89:19
+36        android:name="com.callrecorder.MainApplication"
+36-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:26:9-40
+37        android:allowBackup="false"
+37-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:30:9-36
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\75e4635b66fa4e4e84e71b52579837ce\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+39        android:icon="@mipmap/ic_app_icon"
+39-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:28:9-43
+40        android:label="@string/app_name"
+40-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:27:9-41
+41        android:requestLegacyExternalStorage="true"
+41-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:32:9-52
+42        android:roundIcon="@mipmap/ic_app_icon_round"
+42-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:29:9-54
+43        android:theme="@style/AppTheme" >
+43-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:31:9-40
+44        <activity
+44-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:34:9-45:20
+45            android:name="com.callrecorder.MainActivity"
+45-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:35:13-41
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+46-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:37:13-122
+47            android:exported="true"
+47-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:40:13-36
+48            android:label="@string/app_name"
+48-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:36:13-45
+49            android:launchMode="singleTask"
+49-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:38:13-44
+50            android:windowSoftInputMode="adjustResize" >
+50-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:39:13-55
+51            <intent-filter>
+51-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:41:13-44:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:42:17-69
+52-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:42:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:43:17-77
+54-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:43:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <service
+58-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:47:9-52:44
+59            android:name="com.callrecorder.CallRecordingService"
+59-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:48:13-49
+60            android:enabled="true"
+60-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:49:13-35
+61            android:exported="false"
+61-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:50:13-37
+62            android:foregroundServiceType="microphone"
+62-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:51:13-55
+63            android:stopWithTask="false" />
+63-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:52:13-41
+64
+65        <!-- ACCESSIBILITY SERVICE — ye Samsung par audio unlock karta hai -->
+66        <service
+66-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:55:9-67:19
+67            android:name="com.callrecorder.CallAccessibilityService"
+67-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:56:13-53
+68            android:enabled="true"
+68-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:57:13-35
+69            android:exported="true"
+69-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:58:13-36
+70            android:label="RecVault Call Assistant"
+70-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:59:13-52
+71            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+71-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:60:13-79
+72            <intent-filter>
+72-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:61:13-63:29
+73                <action android:name="android.intent.action.ACCESSIBILITY_SERVICE" />
+73-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:62:17-86
+73-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:62:25-83
+74            </intent-filter>
+75
+76            <meta-data
+76-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:64:13-66:72
+77                android:name="android.accessibilityservice"
+77-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:65:17-60
+78                android:resource="@xml/accessibility_service_config" />
+78-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:66:17-69
+79        </service>
+80
+81        <receiver
+81-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:69:9-77:20
+82            android:name="com.callrecorder.BootReceiver"
+82-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:70:13-41
+83            android:enabled="true"
+83-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:71:13-35
+84            android:exported="true" >
+84-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:72:13-36
+85            <intent-filter>
+85-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:73:13-76:29
+86                <action android:name="android.intent.action.BOOT_COMPLETED" />
+86-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:74:17-79
+86-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:74:25-76
+87                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+87-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:75:17-82
+87-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:75:25-79
+88            </intent-filter>
+89        </receiver>
+90
+91        <provider
+91-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:79:9-87:20
+92            android:name="androidx.core.content.FileProvider"
+92-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:80:13-62
+93            android:authorities="com.callrecorder.fileprovider"
+93-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:81:13-64
+94            android:exported="false"
+94-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:82:13-37
+95            android:grantUriPermissions="true" >
+95-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:83:13-47
+96            <meta-data
+96-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:84:13-86:58
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:85:17-67
+98                android:resource="@xml/provider_paths" />
+98-->D:\project\CallRecorder\android\app\src\main\AndroidManifest.xml:86:17-55
+99        </provider>
+100        <provider
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+102            android:authorities="com.callrecorder.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.0.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\InvoiceMate\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+110        </provider>
+111
+112        <meta-data
+112-->[com.facebook.soloader:soloader:0.10.5] C:\Users\InvoiceMate\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+113            android:name="com.facebook.soloader.enabled"
+113-->[com.facebook.soloader:soloader:0.10.5] C:\Users\InvoiceMate\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+114            android:value="false" />
+114-->[com.facebook.soloader:soloader:0.10.5] C:\Users\InvoiceMate\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+115    </application>
+116
+117</manifest>

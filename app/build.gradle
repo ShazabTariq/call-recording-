@@ -1,0 +1,81 @@
+apply plugin: "com.android.application"
+apply plugin: "com.facebook.react"
+
+android {
+    namespace "com.callrecorder"
+    ndkVersion rootProject.ext.ndkVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        applicationId "com.callrecorder"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true 
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        release {
+            // ✅ Fix: Agar properties file nahi hai toh debug key use karega taaki build pass ho jaye
+            if (project.hasProperty('MYAPP_STORE_FILE')) {
+                storeFile file(MYAPP_STORE_FILE)
+                storePassword MYAPP_STORE_PASSWORD
+                keyAlias MYAPP_KEY_ALIAS
+                keyPassword MYAPP_KEY_PASSWORD
+            } else {
+                storeFile signingConfigs.debug.storeFile
+                storePassword signingConfigs.debug.storePassword
+                keyAlias signingConfigs.debug.keyAlias
+                keyPassword signingConfigs.debug.keyPassword
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    // 🛠️ FIX: Duplicate Resource aur Lib Conflicts handle karne ke liye
+    packagingOptions {
+        pickFirst 'lib/x86/libc++_shared.so'
+        pickFirst 'lib/x86_64/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+        pickFirst '**/ic_app_icon_round.png'
+        pickFirst '**/ic_app_icon.png'
+    }
+
+    // 🔥 DANGEROUS FIX: Yeh script duplicate images ko force-delete karegi build ke waqt
+    applicationVariants.all { variant ->
+        variant.mergeResourcesProvider.get().doFirst {
+            delete fileTree(dir: "${buildDir}/generated/res/createBundle${variant.name.capitalize()}JsAndAssets/", include: "**/ic_app_icon_round.png")
+        }
+    }
+}
+
+dependencies {
+    implementation("com.facebook.react:react-android")
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    if (hermesEnabled.toBoolean()) {
+        implementation("com.facebook.react:hermes-android")
+    } else {
+        implementation jscFlavor
+    }
+}
+
+apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

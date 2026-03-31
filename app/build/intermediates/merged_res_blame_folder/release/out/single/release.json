@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/xml_accessibility_service_config.xml.flat",
+        "source": "com.callrecorder.app-main-24:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxxhdpi_ic_app_icon_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxxhdpi/ic_app_icon_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/drawable-mdpi_ic_app_icon_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/drawable-mdpi/ic_app_icon_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxhdpi_ic_app_icon_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxhdpi/ic_app_icon_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xhdpi_ic_app_icon_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xhdpi/ic_app_icon_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-mdpi_ic_app_icon_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-mdpi/ic_app_icon_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-mdpi_ic_app_icon.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-mdpi/ic_app_icon.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-anydpi-v26_ic_app_icon_round.xml.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-anydpi-v26/ic_app_icon_round.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xhdpi_ic_app_icon.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xhdpi/ic_app_icon.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxhdpi_ic_app_icon.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxhdpi/ic_app_icon.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-anydpi-v26_ic_app_icon.xml.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-anydpi-v26/ic_app_icon.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-hdpi_ic_app_icon_round.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-hdpi/ic_app_icon_round.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxxhdpi_ic_app_icon.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxxhdpi/ic_app_icon.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/xml_provider_paths.xml.flat",
+        "source": "com.callrecorder.app-main-24:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-hdpi_ic_app_icon.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-hdpi/ic_app_icon.png"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.callrecorder.app-main-24:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.callrecorder.app-merged_res-23:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.callrecorder.app-main-24:/mipmap-hdpi/ic_launcher_foreground.png"
+    }
+]
