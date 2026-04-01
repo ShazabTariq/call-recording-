@@ -1,0 +1,146 @@
+﻿> Task :gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :app:buildCodegenCLI SKIPPED
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :react-native-video:preBuild UP-TO-DATE
+> Task :react-native-video:preDebugBuild UP-TO-DATE
+> Task :react-native-video:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :react-native-video:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:javaPreCompileDebug
+> Task :react-native-video:writeDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :react-native-video:compileDebugRenderscript NO-SOURCE
+> Task :react-native-video:generateDebugResValues
+> Task :react-native-video:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :react-native-video:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :react-native-video:extractDeepLinksDebug
+
+> Task :react-native-video:processDebugManifest
+package="com.brentvatne.react" found in source AndroidManifest.xml: D:\project\CallRecorder\node_modules\react-native-video\android\src\main\AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :react-native-video:compileDebugLibraryResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :react-native-video:generateDebugBuildConfig
+> Task :react-native-video:javaPreCompileDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugShaders
+> Task :react-native-video:parseDebugLocalResources
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-video:mergeDebugShaders
+> Task :react-native-video:compileDebugShaders NO-SOURCE
+> Task :react-native-video:generateDebugAssets UP-TO-DATE
+> Task :react-native-video:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :react-native-video:generateDebugRFile
+> Task :app:compressDebugAssets
+> Task :app:mergeDebugResources
+
+> Task :react-native-video:compileDebugJavaWithJavac
+.\gradlew.bat : Note: 
+Some input files use or 
+override a deprecated API.
+At line:1 char:1
++ .\gradlew.bat 
+assembleDebug > 
+build_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo        
+      : NotSpecified: (N  
+  ote: Some inpu...depr   
+ ecated API.:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+Note: Recompile with 
+-Xlint:deprecation for 
+details.
+Note: D:\project\CallRecor
+der\node_modules\react-nat
+ive-video\android\src\main
+\java\com\brentvatne\react
+\ReactVideoViewManager.jav
+a uses unchecked or 
+unsafe operations.
+Note: Recompile with 
+-Xlint:unchecked for 
+details.
+
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :react-native-video:processDebugJavaRes NO-SOURCE
+> Task :react-native-video:bundleLibResDebug NO-SOURCE
+> Task :react-native-video:bundleLibCompileToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :react-native-video:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :react-native-video:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :react-native-video:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-video:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :react-native-video:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-video:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-video:extractDebugAnnotations
+> Task :react-native-video:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-video:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-video:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-video:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-video:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-video:mergeDebugJavaResource
+> Task :react-native-video:syncDebugLibJars
+> Task :react-native-video:bundleDebugAar
+> Task :react-native-video:assembleDebug
+> Task :app:processDebugResources
+> Task :app:mergeDebugJavaResource
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files 
+use or override a 
+deprecated API.
+Note: Recompile with 
+-Xlint:deprecation for 
+details.
+
+> Task :app:mergeLibDexDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugNativeLibs
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libfabricjni.so, libfb.so, libfbjni.so, libfolly_runtime.so, libglog.so, libglog_init.so, libhermes.so, libhermes_executor.so, libimagepipeline.so, libjsi.so, libjsijniprofiler.so, libjsinspector.so, liblogger.so, libmapbufferjni.so, libnative-filters.so, libnative-imagetranscoder.so, libreact_codegen_rncore.so, libreact_config.so, libreact_debug.so, libreact_nativemodule_core.so, libreact_newarchdefaults.so, libreact_render_animations.so, libreact_render_attributedstring.so, libreact_render_componentregistry.so, libreact_render_core.so, libreact_render_debug.so, libreact_render_element.so, libreact_render_graphics.so, libreact_render_imagemanager.so, libreact_render_leakchecker.so, libreact_render_mapbuffer.so, libreact_render_mounting.so, libreact_render_runtimescheduler.so, libreact_render_scheduler.so, libreact_render_telemetry.so, libreact_render_templateprocessor.so, libreact_render_textlayoutmanager.so, libreact_render_uimanager.so, libreact_utils.so, libreactnativeblob.so, libreactnativejni.so, libreactperfloggerjni.so, librrc_image.so, librrc_legacyviewmanagerinterop.so, librrc_root.so, librrc_scrollview.so, librrc_text.so, librrc_textinput.so, librrc_unimplementedview.so, librrc_view.so, libruntimeexecutor.so, libturbomodulejsijni.so, libyoga.so.
+
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 20s
+64 actionable tasks: 54 executed, 10 up-to-date
